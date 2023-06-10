@@ -201,9 +201,16 @@ img {
 /**------section one------*/
 
 .section-one {
+  padding: 120px 0;
 }
 
 .section-one-list {
+  display: flex;
+  gap: 24px;
+}
+
+.section-one-list {
+  width: calc ((100% - 72px) / 4);
 }
 
 .section-one-title {
@@ -211,6 +218,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-bottom: 8px;
   color: var(--color-grey);
 }
 
