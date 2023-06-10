@@ -210,7 +210,7 @@ img {
 }
 
 .section-one-list {
-  width: calc ((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .section-one-title {
@@ -218,7 +218,7 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   color: var(--color-grey);
 }
 
