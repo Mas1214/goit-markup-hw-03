@@ -209,7 +209,7 @@ img {
   gap: 24px;
 }
 
-.section-one-list {
+.section-one-item {
   width: calc((100% - 72px) / 4);
 }
 
