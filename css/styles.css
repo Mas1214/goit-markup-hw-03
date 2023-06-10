@@ -313,6 +313,7 @@ img {
 /**------footer------*/
 
 .footer {
+  padding: 100px 0;
   background: #2e2f42;
 }
 
@@ -324,6 +325,8 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
   color: #4d5ae5;
 }
 
@@ -339,6 +342,7 @@ img {
 }
 
 .footer-text {
+  max-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
