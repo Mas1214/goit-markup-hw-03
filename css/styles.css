@@ -156,7 +156,9 @@ img {
 /**------hero------*/
 
 .hero {
-  background-color: #2e2f42;
+  height: 600px;
+  padding: 188px 0;
+  background-color: var(--color-navy-blue);
 }
 
 .hero-title {
@@ -165,16 +167,25 @@ img {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
+  color: var(--color-white);
 }
 
 .hero-btn {
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border-radius: 4px;
+  max-width: 169px;
+  height: 56px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   color: var(--color-white);
   background-color: var(--color-iris);
 }
