@@ -224,7 +224,6 @@ img {
 }
 
 .section-one-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -234,6 +233,7 @@ img {
 /**-------section two-------*/
 
 .section-two {
+  padding: 120px 0;
 }
 
 .section-two-title {
@@ -243,13 +243,18 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
   color: #2e2f42;
 }
 
 .section-two-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 72px;
 }
 
 .section-two-item {
+  width: calc((100%-48px) / 3);
 }
 
 /**-------section three-------*/
