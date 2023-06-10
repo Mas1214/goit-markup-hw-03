@@ -43,6 +43,8 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -233,7 +235,7 @@ img {
 /**-------section two-------*/
 
 .section-two {
-  padding: 120px 0;
+  padding-bottom: 120px;
 }
 
 .section-two-title {
@@ -254,30 +256,42 @@ img {
 }
 
 .section-two-item {
-  width: calc((100%-48px) / 3);
+  width: calc((100% - 48px) / 3);
 }
 
 /**-------section three-------*/
 
 .section-three {
-  background: #f4f4fd;
+  padding: 120px 0;
+  height: 732px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: var(--color-cloud);
 }
 
 .section-three-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
+  margin-bottom: 72px;
+  color: var(--color-navy-blue);
 }
 
 .section-three-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 48px;
 }
 
 .section-three-item {
-  background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
+  background-color: var(--color-white);
+}
+
+.container-team {
+  padding: 32px 16px;
 }
 
 .section-three-name {
@@ -285,14 +299,15 @@ img {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  margin-bottom: 8px;
+  color: var(--color-grey);
 }
 
 .section-three-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-slate);
 }
 
 /**------footer------*/
