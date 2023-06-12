@@ -376,8 +376,8 @@ img {
   background: var(--color-cloud);
 }
 
-.navigation-btn:hover,
-.navigation-btn:focus {
+.portfolio-button:hover,
+.portfolio-button:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
   border: 1px solid transparent;
